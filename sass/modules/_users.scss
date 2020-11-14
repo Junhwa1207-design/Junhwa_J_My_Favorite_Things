@@ -1,0 +1,41 @@
+.user-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+// //.favorite {
+//   position: relative;
+// }
+.favorite img {
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 28%;
+  // bottom: 0;
+  left: 10%;
+  // right: 0;
+
+  height: 80%;
+  width: 80%;
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: #f9fcfc;
+}
+.favorite:hover .overlay {
+  opacity: 0.9;
+}
+.text {
+  color: white;
+  margin-left: 3%;
+  margin-right: 25%;
+
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
