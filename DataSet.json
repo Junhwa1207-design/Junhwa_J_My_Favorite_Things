@@ -1,0 +1,28 @@
+[[{
+    "ID": "1",
+    "favorite-title": "coffee",
+    "favorite-description": "I drink coffee every day, and it makes me happy.",
+    "favorite-example": "cafe Latte",
+    "image": "coffee.jpg"
+},
+{
+    "ID": "2",
+    "favorite-title": "animal",
+    "favorite-description": "I love all animals from dog to whale.",
+    "favorite-example": "dog",
+    "image": "animal.jpg"
+},
+{
+    "ID": "3",
+    "favorite-title": "song",
+    "favorite-description": "it needs when I work especially.",
+    "favorite-example": "jazz",
+    "image": "song.jpg"
+},
+{
+    "ID": "4",
+    "favorite-title": "color",
+    "favorite-description": "colors can make our life perfectly.",
+    "favorite-example": "yellow",
+    "image": "color.jpg"
+}]]
