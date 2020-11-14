@@ -1,0 +1,119 @@
+@media screen and (min-width: 375px) {
+  body {
+    background-color: purple;
+  }
+  body img {
+    width: 350px;
+    height: 300px;
+  }
+}
+@media screen and (min-width: 768px) {
+  body {
+    background-color: #264c9f;
+  }
+  body img {
+    width: 350px;
+    height: 300px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  body {
+    background-color: #0b7b10;
+  }
+  body img {
+    width: 300px;
+    height: 300px;
+  }
+}
+body {
+  font-size: 16px;
+  margin: 0 0 50px 0;
+  border: 0;
+}
+body h1 {
+  margin-top: 60px;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 4em;
+}
+body h2 {
+  color: #575555;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 2.5em;
+  text-align: center;
+}
+body p {
+  color: #361f1f;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 1em;
+  text-align: center;
+}
+body h3 {
+  color: #361f1f;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 1em;
+  text-align: center;
+}
+
+nav {
+  margin: 0;
+}
+nav .nav-item {
+  display: inline-block;
+  margin: 0 10px;
+  background-color: blue;
+  border-radius: 8px;
+  padding: 5px 10px;
+}
+nav .nav-item a {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+nav .nav-item a:hover {
+  color: red;
+}
+
+.user-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.favorite img {
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 28%;
+  left: 10%;
+  height: 80%;
+  width: 80%;
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: #f9fcfc;
+}
+
+.favorite:hover .overlay {
+  opacity: 0.9;
+}
+
+.text {
+  color: white;
+  margin-left: 3%;
+  margin-right: 25%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*# sourceMappingURL=master.css.map */
